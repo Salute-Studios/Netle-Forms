@@ -22,37 +22,49 @@
 
   <p>Bu metin, Netle mobil uygulamasını ("Netle", "uygulama", "biz") kullanırken hangi kişisel verilerin toplandığını, nasıl kullanıldığını, kimlerle paylaşıldığını ve haklarının ne olduğunu açıklar. Netle, Türkiye'de YKS'ye hazırlanan öğrencilere yönelik bir kaynak bulma, çalışma takibi ve topluluk uygulamasıdır.</p>
 
-  <h2>1. Hangi verileri topluyoruz</h2>
+  <h2>1. Veri sorumlusu</h2>
+  <p>Kişisel verilerin veri sorumluları, <strong>Salute Studios</strong> adı altında birlikte faaliyet gösteren <strong>Davut Şimşek</strong> ve <strong>Yusuf Salih Kulaç</strong>'tır. İletişim: <a href="mailto:salute.developer@gmail.com">salute.developer@gmail.com</a></p>
+
+  <h2>2. Hangi verileri topluyoruz</h2>
   <ul>
     <li><strong>Hesap bilgileri:</strong> e-posta adresi ve şifre (şifre bizde düz metin olarak tutulmaz, kimlik doğrulama sağlayıcımız tarafından güvenli şekilde saklanır).</li>
-    <li><strong>Profil bilgileri:</strong> kullanıcı adı, görünen ad, kısa biyografi ve profil fotoğrafı (kendi yüklediğin bir fotoğraf ya da uygulama içinden seçtiğin/otomatik oluşturulan bir avatar).</li>
-    <li><strong>Hata defteri içeriği:</strong> kaydettiğin soruların fotoğrafları, ders/konu/kitap eşleştirmeleri, notların ve tekrar planlaman.</li>
-    <li><strong>Çalışma verileri:</strong> zamanlayıcı (Pomodoro) oturumların, çalışma istatistiklerin, sınava kalan gün hedefin.</li>
-    <li><strong>Topluluk içeriği:</strong> paylaştığın gönderiler, yorumlar, beğeniler, katıldığın gruplar ve grup sohbetlerindeki mesajlar.</li>
+    <li><strong>Onay kaydı:</strong> kabul ettiğin koşulların sürümü, kabul zamanı ve yaş onayın.</li>
+    <li><strong>Profil bilgileri:</strong> kullanıcı adı (kayıtta otomatik oluşturulur), görünen ad ve avatar seçimi (stil ve metin). Kendi fotoğrafını yükleme özelliği yoktur.</li>
+    <li><strong>Hata defteri içeriği:</strong> kaydettiğin soruların fotoğrafları, ders/konu/kitap eşleştirmeleri, notların ve tekrar planlaman. Fotoğraf eklerken kamera veya galeriye yalnızca senin seçtiğin görüntü için erişilir.</li>
+    <li><strong>Kitaplık ve çalışma verileri:</strong> kitaplığın ve kitap ilerlemen, zamanlayıcı (Pomodoro) oturumların ve çalışma istatistiklerin.</li>
+    <li><strong>Topluluk içeriği:</strong> paylaştığın gönderiler, yorumlar, beğeniler, kitap puanların ve yorumların, katıldığın gruplar ve grup sohbetlerindeki mesajlar.</li>
     <li><strong>Şikayet ve engelleme bilgileri:</strong> bir içeriği şikayet edersen veya birini engellersen, bu işlemle ilgili kayıt (kim, ne zaman, hangi sebeple) topluluk güvenliğini sağlamak amacıyla tutulur.</li>
-    <li><strong>Kullanım verileri:</strong> uygulama içi etkileşimlerin (örn. hangi kitaplara bakıldığı, hangi özelliklerin kullanıldığı) hizmeti çalıştırabilmek için gereken ölçüde.</li>
   </ul>
-  <p>Netle, konum, kişi rehberi, arama geçmişi gibi verileri toplamaz ve reklam/izleme amaçlı üçüncü taraf analiz veya reklam SDK'ları kullanmaz.</p>
+  <p>Netle, konum, kişi rehberi, mikrofon, reklam kimliği gibi verileri toplamaz ve reklam/izleme amaçlı üçüncü taraf analiz veya reklam SDK'ları kullanmaz.</p>
+  <p><strong>Cihazında saklananlar:</strong> Uygulamanın hızlı ve internetsiz de çalışabilmesi için kitap listesi ve kitaplığın telefonunda yerel olarak saklanır; oturum bilgin de cihazında tutulur. Çıkış yapman veya uygulamayı silmen bunları cihazdan kaldırır.</p>
 
-  <h2>2. Verilerini kimlerle paylaşıyoruz</h2>
+  <h2>3. Verilerini kimlerle paylaşıyoruz</h2>
   <ul>
-    <li><strong>Supabase:</strong> hesap kimlik doğrulama, veritabanı ve dosya depolama (fotoğraflar dahil) altyapımızı sağlayan bulut hizmeti sağlayıcısıdır. Verilerin barındığı ana altyapı budur.</li>
+    <li><strong>Supabase:</strong> hesap kimlik doğrulama, veritabanı ve dosya depolama (fotoğraflar dahil) altyapımızı sağlayan bulut hizmeti sağlayıcısıdır. Verilerin barındığı ana altyapı budur; sunucular Avrupa'dadır (İrlanda).</li>
+    <li><strong>DiceBear:</strong> Avatarın, seçtiğin stil ve metinden DiceBear'ın sunucusunda üretilir. Avatar görüntülenirken bu ayarların ve IP adresinin DiceBear'a ulaşması gerekir; başka bir kişisel verin gönderilmez.</li>
+    <li><strong>E-posta iletimi:</strong> Hesap onayı ve şifre sıfırlama e-postaları bir e-posta iletim hizmeti üzerinden gönderilir.</li>
+    <li><strong>Diğer kullanıcılar:</strong> Herkese açık paylaştığın içerikler (gönderiler, yorumlar, kitap puanı ve yorumların, görünen adın ve avatarın) diğer kullanıcılara görünür. <em>Çalışma grupları:</em> Bir gruba katılırsan grubun üyeleri haftalık toplam çalışma süreni liderlik tablosunda, ortak çalışma odasındaki durumunu (odakta / molada) ve grup mesajlarını görür. Hata defterin, kitaplığın ve çalışma kayıtlarının geri kalanı yalnızca sana görünür.</li>
   </ul>
   <p>Verilerini reklamcılara, veri komisyoncularına satmayız veya kiralamayız. Yasal bir zorunluluk (mahkeme kararı, resmi makam talebi) olmadıkça üçüncü taraflarla paylaşmayız.</p>
   <div class="callout">Uygulamada "Yapay Zekâ Koçu" ve "Sıradaki Kitap" gibi yapay zekâ destekli özellikler planlanıyor, ancak şu an aktif değil ve hiçbir veri bir yapay zekâ sağlayıcısıyla paylaşılmıyor. Bu özellikler etkinleştirildiğinde, hangi verinin hangi sağlayıcıyla paylaşılacağını burada açıkça güncelleyeceğiz.</div>
 
-  <h2>3. Verilerini neden işliyoruz</h2>
+  <h2>4. Yurt dışına aktarım</h2>
+  <p>Supabase hizmeti Avrupa'daki (İrlanda) sunucularda çalışır ve şirket olarak yurt dışında yerleşiktir. Bu nedenle verilerin Türkiye dışına aktarılmış ve orada saklanmış olur. Aktarım, hizmet sağlayıcıyla yapılan veri işleme şartları ve KVKK madde 9'daki düzenlemeler çerçevesinde yürütülür.</p>
+
+  <h2>5. Verilerini neden işliyoruz</h2>
   <ul>
     <li>Hesabını oluşturmak, doğrulamak ve güvenliğini sağlamak,</li>
     <li>Kitap kataloğu, hata defteri, zamanlayıcı ve istatistik gibi temel özellikleri sunmak,</li>
     <li>Topluluk özelliklerini (akış, gruplar) çalıştırmak ve güvenli tutmak (şikayet/engelleme dahil),</li>
+    <li>Seninle iletişim kurmak (hesap onayı, şifre sıfırlama, destek ve hak talepleri),</li>
     <li>Yasal yükümlülüklerimizi yerine getirmek.</li>
   </ul>
+  <p>Bu işlemler, KVKK madde 5/2 kapsamında <em>sözleşmenin kurulması veya ifası</em> (uygulama hizmetinin sunulması) ve <em>meşru menfaatlerimiz</em> (hizmet güvenliği, kötüye kullanımın önlenmesi) hukuki sebeplerine dayanır. Açık rıza gerektiren ayrı bir işleme yapmıyoruz; yapmamız gerekirse önceden ayrıca soracağız.</p>
 
-  <h2>4. Verilerini ne kadar süre saklıyoruz</h2>
+  <h2>6. Verilerini ne kadar süre saklıyoruz</h2>
   <p>Verilerin, hesabın aktif olduğu sürece saklanır. Hesabını sildiğinde, aşağıdaki "Hesap Silme" sayfasında açıklanan şekilde hesabın ve ilişkili verilerin (profil, gönderiler, hata defteri fotoğrafları dahil) kalıcı olarak silinir.</p>
 
-  <h2>5. Haklarınız (6698 sayılı KVKK madde 11)</h2>
+  <h2>7. Haklarınız (6698 sayılı KVKK madde 11)</h2>
   <p>Kişisel Verilerin Korunması Kanunu kapsamında şu haklara sahipsin:</p>
   <ul>
     <li>Verilerinin işlenip işlenmediğini öğrenme,</li>
@@ -62,19 +74,19 @@
     <li>İşlenen verilerin üçüncü kişilere aktarıldığını öğrenme,</li>
     <li>Kanuna aykırı işleme nedeniyle zarara uğramışsan zararın giderilmesini talep etme.</li>
   </ul>
-  <div class="callout">Bu haklarını kullanmak için aşağıdaki iletişim adresinden bize yazabilirsin. Hesabını doğrudan silmek istiyorsan, uygulama içinde <strong>Alanım → Profil ve Hesap → Ayarlar → Hesabımı Sil</strong> yolunu kullanabilirsin; ayrıntılar için <a href="hesap-silme.html">Hesap Silme</a> sayfasına bak.</div>
+  <div class="callout">Bu haklarını kullanmak için aşağıdaki iletişim adresinden, hesabına kayıtlı e-postandan bize yazabilirsin; en geç <strong>30 gün</strong> içinde cevap veririz. Cevabımızdan memnun kalmazsan Kişisel Verileri Koruma Kurumu'na başvurma hakkın saklıdır. Hesabını doğrudan silmek istiyorsan, uygulama içinde <strong>Alanım → Profil ve Hesap → Ayarlar → Hesabımı Sil</strong> yolunu kullanabilirsin; ayrıntılar için <a href="hesap-silme.html">Hesap Silme</a> sayfasına bak.</div>
 
-  <h2>6. Çocukların gizliliği</h2>
+  <h2>8. Çocukların gizliliği</h2>
   <p>Netle 16 yaş ve üzeri kullanıcılar için tasarlanmıştır. 16 yaşından küçük olduğunu bildiğimiz bir kullanıcıdan bilerek veri toplamayız; böyle bir durumdan haberdar olursak ilgili hesabı ve verileri sileriz.</p>
 
-  <h2>7. Güvenlik</h2>
-  <p>Verilerin, sektör standardı şifreleme (aktarım sırasında TLS) ve erişim kontrolleri (satır seviyesi güvenlik politikaları — Row Level Security) ile korunur. Hiçbir sistem %100 güvenli değildir; bir güvenlik ihlali durumunda yürürlükteki mevzuata uygun şekilde bilgilendirme yaparız.</p>
+  <h2>9. Güvenlik</h2>
+  <p>Verilerin, sektör standardı şifreleme (aktarım sırasında TLS) ve erişim kontrolleri (satır seviyesi güvenlik politikaları — Row Level Security) ile korunur. Hata defteri fotoğrafların özel bir depolama alanında tutulur ve erişim kuralları başka kullanıcıların bunlara ulaşamayacağı şekilde tasarlanmıştır. Hiçbir sistem %100 güvenli değildir; bir güvenlik ihlali durumunda yürürlükteki mevzuata uygun şekilde bilgilendirme yaparız.</p>
 
-  <h2>8. Bu politikadaki değişiklikler</h2>
+  <h2>10. Bu politikadaki değişiklikler</h2>
   <p>Bu politikayı zaman zaman güncelleyebiliriz. Önemli değişikliklerde uygulama içinden bilgilendirme yapılır. Güncel sürüm her zaman bu sayfada yer alır.</p>
 
-  <h2>9. İletişim</h2>
-  <p>Soruların için: <a href="mailto:salute.developer@gmail.com">salute.developer@gmail.com</a></p>
+  <h2>11. İletişim</h2>
+  <p>Salute Studios — Davut Şimşek ve Yusuf Salih Kulaç<br>E-posta: <a href="mailto:salute.developer@gmail.com">salute.developer@gmail.com</a></p>
 
   <p style="margin-top:3em"><a href="index.html">← Netle belgelerine dön</a></p>
 </body>
