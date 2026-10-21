@@ -18,7 +18,7 @@
 </head>
 <body>
   <h1>Netle Gizlilik Politikası</h1>
-  <p class="meta">Son güncelleme: 24 Eylül 2026</p>
+  <p class="meta">Son güncelleme: 21 Ekim 2026</p>
 
   <p>Bu metin, Netle mobil uygulamasını ("Netle", "uygulama", "biz") kullanırken hangi kişisel verilerin toplandığını, nasıl kullanıldığını, kimlerle paylaşıldığını ve haklarının ne olduğunu açıklar. Netle, Türkiye'de YKS'ye hazırlanan öğrencilere yönelik bir kaynak bulma, çalışma takibi ve topluluk uygulamasıdır.</p>
 
@@ -34,6 +34,8 @@
     <li><strong>Kitaplık ve çalışma verileri:</strong> kitaplığın ve kitap ilerlemen, zamanlayıcı (Pomodoro) oturumların ve çalışma istatistiklerin.</li>
     <li><strong>Topluluk içeriği:</strong> paylaştığın gönderiler, yorumlar, beğeniler, kitap puanların ve yorumların, katıldığın gruplar ve grup sohbetlerindeki mesajlar.</li>
     <li><strong>Şikayet ve engelleme bilgileri:</strong> bir içeriği şikayet edersen veya birini engellersen, bu işlemle ilgili kayıt (kim, ne zaman, hangi sebeple) topluluk güvenliğini sağlamak amacıyla tutulur.</li>
+    <li><strong>Kullanım istatistikleri:</strong> uygulamayı hangi gün açtığın ve hangi ekranlarda ne kadar süre geçirdiğin, yalnızca toplu sayılar olarak (ekran adı + süre/açılış sayısı) ölçülür; görüntülediğin içerik (hangi kitap, hangi gönderi vb.) kaydedilmez.</li>
+    <li><strong>Yapay zekâ özellikleri kullanılırsa:</strong> "Sıradaki Kitap" ve "Çalışma Koçu" özelliklerini açık rızanla açarsan, çalışma koçu profilin için verdiğin anket cevapları (okul durumun, alanın, haftada kaç gün/saat çalıştığın, en verimli zamanın) ve yazdığın en fazla 500 karakterlik serbest not toplanır.</li>
   </ul>
   <p>Netle, konum, kişi rehberi, mikrofon, reklam kimliği gibi verileri toplamaz ve reklam/izleme amaçlı üçüncü taraf analiz veya reklam SDK'ları kullanmaz.</p>
   <p><strong>Cihazında saklananlar:</strong> Uygulamanın hızlı ve internetsiz de çalışabilmesi için kitap listesi ve kitaplığın telefonunda yerel olarak saklanır; oturum bilgin de cihazında tutulur. Çıkış yapman veya uygulamayı silmen bunları cihazdan kaldırır.</p>
@@ -44,12 +46,14 @@
     <li><strong>DiceBear:</strong> Avatarın, seçtiğin stil ve metinden DiceBear'ın sunucusunda üretilir. Avatar görüntülenirken bu ayarların ve IP adresinin DiceBear'a ulaşması gerekir; başka bir kişisel verin gönderilmez.</li>
     <li><strong>E-posta iletimi:</strong> Hesap onayı ve şifre sıfırlama e-postaları bir e-posta iletim hizmeti üzerinden gönderilir.</li>
     <li><strong>Diğer kullanıcılar:</strong> Herkese açık paylaştığın içerikler (gönderiler, yorumlar, kitap puanı ve yorumların, görünen adın ve avatarın) diğer kullanıcılara görünür. <em>Çalışma grupları:</em> Bir gruba katılırsan grubun üyeleri haftalık toplam çalışma süreni liderlik tablosunda, ortak çalışma odasındaki durumunu (odakta / molada) ve grup mesajlarını görür. Hata defterin, kitaplığın ve çalışma kayıtlarının geri kalanı yalnızca sana görünür.</li>
+    <li><strong>Yapay zekâ sağlayıcısı (OpenCode Go → DeepSeek):</strong> "Sıradaki Kitap" ve "Çalışma Koçu" özelliklerini açarsan, isteğin sunucumuz üzerinden <strong>OpenCode Go</strong> servisine, oradan <strong>DeepSeek</strong> modeline gönderilir. Gönderilen veri: seçtiğin ders, o dersteki kitaplığın (kitap adı, tür, ilerleme, verdiğin zorluk oyu), son haftaların çalışma süreleri, son deneme netlerinin ortalaması, en çok hata yaptığın konular, günlük hedefin, sınava kalan gün, anket cevapların ve yazdığın serbest not. <strong>Adın, e-posta adresin ve hesap kimliğin gönderilmez.</strong> DeepSeek modelinin menşei Çin'dir; OpenCode Go altyapısının bölge ayarı "Global" olduğu için verinin tam olarak hangi ülke(ler)de işlendiğini garanti edemiyoruz. Bu özellik yalnızca ayrı bir onay ekranında <strong>açık rızanla</strong> açılır; Profil › Ayarlar'dan istediğin zaman geri alabilirsin, geri alınca özellik tekrar onay ister.</li>
   </ul>
   <p>Verilerini reklamcılara, veri komisyoncularına satmayız veya kiralamayız. Yasal bir zorunluluk (mahkeme kararı, resmi makam talebi) olmadıkça üçüncü taraflarla paylaşmayız.</p>
-  <div class="callout">Uygulamada "Yapay Zekâ Koçu" ve "Sıradaki Kitap" gibi yapay zekâ destekli özellikler planlanıyor, ancak şu an aktif değil ve hiçbir veri bir yapay zekâ sağlayıcısıyla paylaşılmıyor. Bu özellikler etkinleştirildiğinde, hangi verinin hangi sağlayıcıyla paylaşılacağını burada açıkça güncelleyeceğiz.</div>
+  <div class="callout">Serbest not alanına kişisel bilgi (isim, okul adı, sağlık durumu vb.) yazmaman önerilir; bu alan da yapay zekâ sağlayıcısına gönderilen verinin bir parçasıdır.</div>
 
   <h2>4. Yurt dışına aktarım</h2>
   <p>Supabase hizmeti Avrupa'daki (İrlanda) sunucularda çalışır ve şirket olarak yurt dışında yerleşiktir. Bu nedenle verilerin Türkiye dışına aktarılmış ve orada saklanmış olur. Aktarım, hizmet sağlayıcıyla yapılan veri işleme şartları ve KVKK madde 9'daki düzenlemeler çerçevesinde yürütülür.</p>
+  <p>Yapay zekâ özelliklerini açık rızanla açarsan, yukarıda (madde 3) açıklanan veri OpenCode Go'ya ve onun üzerinden, menşei Çin olan DeepSeek modeline aktarılır; bu aktarımın tam olarak hangi ülke(ler)de gerçekleştiği OpenCode'un altyapısına bağlıdır. Bu aktarım, ayrı onay ekranındaki açık rızana dayanır ve istediğin zaman geri alman mümkündür.</p>
 
   <h2>5. Verilerini neden işliyoruz</h2>
   <ul>
@@ -57,12 +61,14 @@
     <li>Kitap kataloğu, hata defteri, zamanlayıcı ve istatistik gibi temel özellikleri sunmak,</li>
     <li>Topluluk özelliklerini (akış, gruplar) çalıştırmak ve güvenli tutmak (şikayet/engelleme dahil),</li>
     <li>Seninle iletişim kurmak (hesap onayı, şifre sıfırlama, destek ve hak talepleri),</li>
+    <li>Uygulamayı geliştirmek için hangi gün kullanıldığını ve ekranlarda geçirilen süreyi toplu olarak ölçmek,</li>
+    <li>Açık rızanla açarsan, sana kişiselleştirilmiş kitap önerisi ve çalışma planı sunmak,</li>
     <li>Yasal yükümlülüklerimizi yerine getirmek.</li>
   </ul>
-  <p>Bu işlemler, KVKK madde 5/2 kapsamında <em>sözleşmenin kurulması veya ifası</em> (uygulama hizmetinin sunulması) ve <em>meşru menfaatlerimiz</em> (hizmet güvenliği, kötüye kullanımın önlenmesi) hukuki sebeplerine dayanır. Açık rıza gerektiren ayrı bir işleme yapmıyoruz; yapmamız gerekirse önceden ayrıca soracağız.</p>
+  <p>Bu işlemler, KVKK madde 5/2 kapsamında <em>sözleşmenin kurulması veya ifası</em> (uygulama hizmetinin sunulması), <em>meşru menfaatlerimiz</em> (hizmet güvenliği, kötüye kullanımın önlenmesi, kullanım istatistikleri) hukuki sebeplerine dayanır. Yapay zekâ özellikleri ise ayrı bir onay ekranındaki <strong>açık rızana</strong> dayanır; bu rızayı istediğin zaman Profil › Ayarlar'dan geri alabilirsin.</p>
 
   <h2>6. Verilerini ne kadar süre saklıyoruz</h2>
-  <p>Verilerin, hesabın aktif olduğu sürece saklanır. Hesabını sildiğinde, aşağıdaki "Hesap Silme" sayfasında açıklanan şekilde hesabın ve ilişkili verilerin (profil, gönderiler, hata defteri fotoğrafları dahil) kalıcı olarak silinir.</p>
+  <p>Verilerin, hesabın aktif olduğu sürece saklanır. Hesabını sildiğinde, aşağıdaki "Hesap Silme" sayfasında açıklanan şekilde hesabın ve ilişkili verilerin (profil, gönderiler, hata defteri fotoğrafları dahil) kalıcı olarak silinir. Kullanım istatistikleri (ekran süreleri, aktif günler) en fazla 13 ay saklanır.</p>
 
   <h2>7. Haklarınız (6698 sayılı KVKK madde 11)</h2>
   <p>Kişisel Verilerin Korunması Kanunu kapsamında şu haklara sahipsin:</p>
